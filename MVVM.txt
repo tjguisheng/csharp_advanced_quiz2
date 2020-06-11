@@ -1,0 +1,7 @@
+MVVM
+MVVM stands for Model-View-ViewModel
+Model is data, it can from database, local file or any data. Data can be modified but should not take logic or other calculation.
+
+View is what we show to users. It's the actual user interface. It handles data to ViewModel via data binding.
+
+ViewModel connect Model and View, it retrieves the necessary data form Model, applies the UI logic then expose releavant data for the View to consume. 
